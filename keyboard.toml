@@ -59,8 +59,11 @@ capslock.low_active = true
 # numslock.pin = "PA5"
 # numslock.low_active = true
 
-
-
 [storage]
 # Storage feature is enabled by default
 # enabled = false
+
+[ble]
+enabled = true
+# vddh has an internal voltage divider
+battery_adc_pin = "vddh"
